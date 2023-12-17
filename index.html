@@ -1,0 +1,173 @@
+<html>
+    <head>
+        <title>OCURRENCIARIO</title>
+        <link rel="stylesheet" href="funciones/styles_3.css">
+        <script src="funciones/js/jquery-3.3.1.min.js"></script>
+        <script src="funciones/funciones_12.js"></script>
+    </head>
+    <body>
+        <header id="header">
+            <div id="titulo"> OCURRENCIARIO</div>
+            <div id="subtitulo">POEMAS</div>    
+            <div class="toggle-switch">
+                <input type="checkbox" id="switch" class="toggle-input" onchange="funcion() " >
+                <label for="switch" class="toggle-label"></label>
+            </div>
+            <div id="subtitulo">IDEAS</div>    
+            <div id="firma">Saul Hdez</div>
+
+        </header>
+  
+       <div id="actual" value=1></div>
+               
+        <div id="fondo_imagen"></div>
+
+        <div class="centro">
+            
+            <div id="detalles">
+                <div id="detalles_imagen"></div><br>
+                <div id="detalles_texto"></div>
+            </div>
+            <a href="nuevo.html"> 
+                    <div id="subtitulo">nuevo
+                        <div id="sol_luna"></div>
+                    </div>   
+                 </a>
+        
+            <div id="tabla">
+                
+
+
+            <div class="d_fila">
+
+                <div class="d_columna"> 
+                        <div class="contenido "value=33>
+                            <a href="#"class="delete" onclick="eliminar(this);return false;"></a>
+                            <a href="#"class="editar" onclick="editar(this);return false;"></a>
+                                <div class="circulo">
+                                    <a href="#"class="enlace" onclick="detalles(this);return false;"></a>                            
+                                </div> 
+                                <div class="nombre"> </div>     
+                        
+                        </div>  
+                </div>
+
+                <div class="espacio">  </div>
+
+                <div class="d_columna"> 
+                    <div class="contenido "value=33>
+                        <a href="#"class="delete" onclick="eliminar(this);return false;"></a>
+                        <a href="#"class="editar" onclick="editar(this);return false;"></a>
+                            <div class="circulo">
+                                <a href="#"class="enlace" onclick="detalles(this);return false;"></a>                            
+                            </div> 
+                            <div class="nombre"> </div>     
+                    
+                    </div>  
+                </div>
+
+                <div class="espacio">  </div>   
+
+                <div class="d_columna"> 
+                <div class="contenido "value=33>
+                    <a href="#"class="delete" onclick="eliminar(this);return false;"></a>
+                    <a href="#"class="editar" onclick="editar(this);return false;"></a>
+                        <div class="circulo">
+                            <a href="#"class="enlace" onclick="detalles(this);return false;"></a>                            
+                        </div> 
+                        <div class="nombre"> </div>     
+                
+                    </div>  
+                </div>
+            </div>
+            
+            <div class="d_fila">
+
+                <div class="espacio">  </div>   
+
+                <div class="d_columna"> 
+                    <div class="contenido"value=22>
+                        <a href="#"class="delete" onclick="eliminar(this);return false;"></a>
+                        <a href="#"class="editar" onclick="editar(this);return false;"></a>
+                            <div class="circulo">
+                                <a href="#"class="enlace" onclick="detalles(this);return false;"></a>
+                            </div> 
+                            <div class="nombre"></div>     
+                
+                    </div>  
+                </div>
+                <div class="espacio">  </div>   
+
+                <div class="d_columna"> 
+                    <div class="contenido"value=22>
+                        <a href="#"class="delete" onclick="eliminar(this);return false;"></a>
+                        <a href="#"class="editar" onclick="editar(this);return false;"></a>
+                            <div class="circulo">
+                                <a href="#"class="enlace" onclick="detalles(this);return false;"></a>
+                            </div> 
+                            <div class="nombre"></div>     
+                
+                    </div>  
+                </div> 
+                <div class="espacio">  </div>   
+            </div>
+
+            <div class="d_fila">
+
+                <div class="d_columna"> 
+                        <div class="contenido "value=33>
+                            <a href="#"class="delete" onclick="eliminar(this);return false;"></a>
+                            <a href="#"class="editar" onclick="editar(this);return false;"></a>
+                                <div class="circulo">
+                                    <a href="#"class="enlace" onclick="detalles(this);return false;"></a>                            
+                                </div> 
+                                <div class="nombre"> </div>     
+                        
+                        </div>  
+                </div>
+
+                <div class="espacio">  </div>
+
+                <div class="d_columna"> 
+                    <div class="contenido "value=33>
+                        <a href="#"class="delete" onclick="eliminar(this);return false;"></a>
+                        <a href="#"class="editar" onclick="editar(this);return false;"></a>
+                            <div class="circulo">
+                                <a href="#"class="enlace" onclick="detalles(this);return false;"></a>                            
+                            </div> 
+                            <div class="nombre"> </div>     
+                    
+                    </div>  
+                </div>
+
+                <div class="espacio">  </div>   
+
+                <div class="d_columna"> 
+                <div class="contenido "value=33>
+                    <a href="#"class="delete" onclick="eliminar(this);return false;"></a>
+                    <a href="#"class="editar" onclick="editar(this);return false;"></a>
+                        <div class="circulo">
+                            <a href="#"class="enlace" onclick="detalles(this);return false;"></a>                            
+                        </div> 
+                        <div class="nombre"> </div>     
+                
+                    </div>  
+                </div>
+            </div>                          
+  
+          
+            
+        </div>
+        <a href="" onclick="prev();return false;" >
+        
+             <div id="prev_page"></div>
+        </a>
+        <a href=""onclick="next();return false;">
+             <div id="next_page"></div>
+        </a>
+       
+
+        </div>
+        
+    </body>
+</html>

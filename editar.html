@@ -1,0 +1,66 @@
+<html>
+    <head>
+        <title>OCURRENCIARIO</title>
+        <link rel="stylesheet" href="funciones/styles_3.css">
+        <script src="funciones/js/jquery-3.3.1.min.js"></script>
+        <script src="funciones/editar_funciones.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+    <header id="header">
+        
+            <div id="titulo"> OCURRENCIARIO </div>
+            <div id="subtitulo">POEMAS /</div>    
+  
+            <div id="subtitulo">/ IDEAS</div>    
+            <div id="firma">Editar</div>
+
+        </header> 
+        <div id="fondo_imagen"></div>
+       
+
+        
+
+        <div class="centro">
+            <div id="">
+                <a href="index.html"> 
+                    <div id="subtitulo">regresar
+                        <div id="sol_luna"></div>
+                    </div>   
+                 </a>
+            </div>
+            <div id="hoja_nuevo">
+            <form enctype="multipart/form-data" name="formulario" id="formulario" method="POST" onsubmit="return registro_edit()">
+            <div id="nuevo_titulo">Titulo<br>
+                    <input type="text" name="nombre" id="nombre" value=a>
+            </div>
+
+       <div id="nuevo_nombre">Texto<br>
+    <textarea name="texto" id="texto"></textarea><br>    
+</div>
+                     
+                    
+
+   
+            </div>
+                <div id="alert"></div>
+                <div id="cont_image">
+                    <div id="subtitulo">Imagen</div><br>
+                    <input value="" type="file" name="imagen" id="imagen" accept="image/*"><br><br>
+                    <input type="hidden"  name="id" id="id" value=0 >
+
+                    <input type="submit"> 
+                </div>
+              
+             
+        
+             </form>               
+            
+
+
+           
+
+        </div>
+        
+
