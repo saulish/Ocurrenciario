@@ -10,48 +10,12 @@ window.onload = function() {
   titulo.setAttribute("value",datos.titulo);
   texto.value=datos.texto;
 }
+
 function vacio(){
     $('#alert').html('Datos faltantes');
     setTimeout("$('#alert').html('');",3000);  
-  }
-function subir_editar(formulario){
-    elemento=document.getElementById("titulo");
-    if(elemento.getAttribute("value")==1){
-      /*
-      $.ajax({
-        url: 'funciones/editar_idea.php',
-        method: "POST",
-        data: formulario,
-        processData: false,
-        contentType: false,
-        success: function() {
-          alert("Idea editada")
-          window.location.href = "index.php";
-        }, 
-        error: function() {
-            alert('error archivo no encontrado');
-        }
-    });
-    }
-    else{
-      $.ajax({
-        url: 'funciones/editar_poema.php',
-        method: "POST",
-        data: formulario,
-        processData: false,
-        contentType: false,
-  
-        success: function() {
-          alert("Poema editado") 
-          window.location.href = "index.php"; 
-        }, 
-        error: function() {
-            alert('error archivo no encontrado');
-        }
-    });*/
-    }
-  
-  }
+}
+
   function registro_edit(){
     let form = document.getElementById("formulario");
     let formData = new FormData(form);
