@@ -1,14 +1,10 @@
-<?php
-require "funciones/files/archivos/conecta.php";
-$con =conecta();
 
-?>
 <html>
     <head>
         <title>NUEVO</title>
         <link rel="stylesheet" href="funciones/styles_3.css">
         <script src="funciones/js/jquery-3.3.1.min.js"></script>
-        <script src="funciones/funciones_10.js"></script>
+        <script src="funciones/nuevo_funciones.js"></script>
     </head>
     <body>
         <header id="header">
@@ -29,7 +25,7 @@ $con =conecta();
 
         <div class="centro">
             <div id="">
-                <a href="index.php"> 
+                <a href="index.html"> 
                     <div id="subtitulo">regresar
                         <div id="sol_luna"></div>
                     </div>   
@@ -51,8 +47,8 @@ $con =conecta();
             </div>
                 <div id="alert"></div>
                 <div id="cont_image">
-                    <div id="subtitulo">Imagen</div><br>
-                    <input type="file" name="imagen" id="imagen" accept="image/*"><br><br>
+                    <div id="peque">Esta version no soporta cambio <br> o subida de imagenes</div><br>
+                    <!--<input type="file" name="imagen" id="imagen" accept="image/*"><br><br>-->
                     <input type="submit"> 
                 </div>
               

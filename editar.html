@@ -11,9 +11,8 @@
     <header id="header">
         
             <div id="titulo"> OCURRENCIARIO </div>
-            <div id="subtitulo">POEMAS /</div>    
+            <div id="subtitulo">OLA</div>    
   
-            <div id="subtitulo">/ IDEAS</div>    
             <div id="firma">Editar</div>
 
         </header> 
@@ -33,7 +32,7 @@
             <div id="hoja_nuevo">
             <form enctype="multipart/form-data" name="formulario" id="formulario" method="POST" onsubmit="return registro_edit()">
             <div id="nuevo_titulo">Titulo<br>
-                    <input type="text" name="nombre" id="nombre" value=a>
+                    <input type="text" name="nombre" id="nombre">
             </div>
 
        <div id="nuevo_nombre">Texto<br>
@@ -47,7 +46,8 @@
                 <div id="alert"></div>
                 <div id="cont_image">
                     <div id="subtitulo">Imagen</div><br>
-                    <input value="" type="file" name="imagen" id="imagen" accept="image/*"><br><br>
+                    <!--<input value="" type="file" name="imagen" id="imagen" accept="image/*"><br><br>-->
+                    <div id="peque">Esta version no soporta cambio <br> o subida de imagenes</div><br>
                     <input type="hidden"  name="id" id="id" value=0 >
 
                     <input type="submit"> 

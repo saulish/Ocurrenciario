@@ -37,6 +37,14 @@ header{
   letter-spacing: 5px;
   font-weight: bold;
 }
+#text{
+  font-family:  Courier New;
+  font-size: 20px;
+  color:#ffffff;
+  
+  letter-spacing: 2px;
+  font-weight: bold;
+}
 #firma{
   font-family: Copperplate;
   font-size: 35px;
@@ -84,15 +92,60 @@ header{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 150%;
 }
+#detalles_titulo{
+
+
+  position:absolute;
+  top: 0%;
+  width: 100%;
+  height: 10%;
+  background-color: #03506F;
+  opacity: 0.8;
+  padding: 0;
+  font-family: Courier New ;
+  font-size: 150%;
+  color: #ffffff;
+  padding: 0px;
+  letter-spacing: 5px;
+  font-weight: bold;
+}
+#cerrar_detalles{
+  position:absolute;
+  z-index: 0;
+  right:0%;
+  top:0%;
+  width: 30%;
+  height:40%;
+  background-size:cover; 
+}
 #detalles_imagen{
+  position:absolute;
+  top: 10%;
   width: 40%;
-  height: 100%;
+  height: 90%;
   background-repeat: no-repeat;
   background-size:cover; 
 }
+#peque{
+  position:relative;
+  background-color: antiquewhite;
+  font-family: Courier New;
+  font-size: 95%;
+  color: #000000;
+  line-height: 120%;
+}
 #detalles_texto{
-  width: 50%;
+  position:absolute;
+
+  top: 10%;
+  left: 40%;
+  width: 60%;
   height: 50%;
+  font-family: Courier New;
+  font-size: 95%;
+  color: #000000;
+  padding: 3px;
+  line-height: 120%;
 }
 #nombre{
   font-size: 150%;
