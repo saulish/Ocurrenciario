@@ -351,13 +351,12 @@ function prev(){
 
 function restaurar(){
    datos_poemas=[
-    {id:1, titulo:"choppa 1", imagen:"chopper1.jpg",texto:"el pinche choppa"},
-    {id:2, titulo:"Kohala", imagen:"uranio.png",texto:"la papa pendeja"},
-    {id:3, titulo:"el choppa 3", imagen:"chopper3.jpg",texto:"el choperon"},
+    {id:1, titulo:"Mi rosita", imagen:"rosita.jpg",texto:"Yo tengo una rosita junto a mi corazon \n la tengo desde pequenia pues la cuido con amor.\n La cuido del frio la cuido del calor \ny siempre estoy con ella porque es bella flor. \nQuerida rosita mia, por que eres tan bonita? \neres de petalos rojos y de unas verdes hojitas."},
+    {id:2, titulo:"Amor", imagen:"poema_1.jpg",texto:"El amor es un secreto que los ojos no saben guardar"},
     ]
      datos_ideas=[
-    {id:1, titulo:"la POLLA", imagen:"uranio.png",texto:"la papa mas pendeja"},
-    {id:2, titulo:"el choppa 2", imagen:"chopper2.jpg",texto:"el choperus"},
+    {id:1, titulo:"Tilin", imagen:"tilin.jpg",texto:"Esta bien chistoson mi amigo el tilin, siono"},
+    {id:2, titulo:"Chopper", imagen:"Chopper_4.jpg",texto:"Mirenlo nomas el chopper todo bonito"},
 
     ]
 
