@@ -31,7 +31,13 @@ function subida(titulo,texto){
         alert("Se ha registrado correctamente"); 
         window.location.replace("index.html");
   }
-  
+function vacio() {
+    let alerta = document.getElementById("alert");
+    alerta.innerHTML = 'Datos faltantes';
+    setTimeout(function() {
+        alerta.innerHTML = '';
+    }, 3000);
+}
   function registro_nuevo(){
 
   

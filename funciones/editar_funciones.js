@@ -70,10 +70,12 @@ window.onload = function() {
   titulo.setAttribute("value",datos.titulo);
   texto.value=datos.texto;
 }
-
-function vacio(){
-    $('#alert').html('Datos faltantes');
-    setTimeout("$('#alert').html('');",3000);  
+function vacio() {
+  let alerta = document.getElementById("alert");
+  alerta.innerHTML = 'Datos faltantes';
+  setTimeout(function() {
+      alerta.innerHTML = '';
+  }, 3000);
 }
 function listo_editar(titulo,texto){
   var datos;

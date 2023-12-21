@@ -30,6 +30,7 @@
                     </div>   
                  </a>
             </div>
+
             <div id="hoja_nuevo">
             <form enctype="multipart/form-data" name="formulario" id="formulario" method="POST" onsubmit="return registro_nuevo()">
             <div id="nuevo_titulo">Titulo<br>
@@ -44,19 +45,15 @@
                      
                     
             </div>
-                <div id="alert"></div>
                 <div id="cont_image">
+                    <div id="alert"></div>
+
                     <div id="peque">Esta version no soporta cambio <br> o subida de imagenes</div><br>
-                    <!--<input type="file" name="imagen" id="imagen" accept="image/*"><br><br>-->
                     <input type="submit"> 
-                </div>
-              
-             
+                </div>            
         
              </form>               
-            
-
-
+        
            
 
         </div>
@@ -64,21 +61,5 @@
 
 
 
-
-
-
-  <!---
-
-             <form charset="UTF-8" enctype="multipart/form-data" name="formulario" id="formulario" onsubmit="return registro_nuevo()">
-
-                    action="funciones/subida_imagen.php"
-
-
-LO QUE HARE SERA UN FORMULARIO SIN SER FORMULARIO
-HARE TODOS LOS INPUT Y AL FINAL HARE UN SUBMIT QUE LLAME A LA FUNCION DE JS LA CUAL VERIFICARA SI TODO ESTA CORRECTAMENTE LLENO
-EN DADO CASO QUE ESTE LLENO, VERIFICARA SI ESTA ACTIVADO O DESACTIVADO Y DEPENDIENDO ESO VA A HACER EL AJAX Y LA SUBIDA DE LOS DATOS
-
-
--->         
     </body>
 </html>
